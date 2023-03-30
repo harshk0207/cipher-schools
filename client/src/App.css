@@ -1,0 +1,317 @@
+
+.leftBar{
+  text-align: center;
+  border-right: 1px solid #d1d1d1;
+  height:100%;
+  /* padding: 0.5rem; */
+  width: 6%;
+}
+.leftBarElements{
+  /* margin: 0.5rem; */
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.navbarSearchBox {
+  background-color: #f2f5fa;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  margin-top: 11px;
+  display: flex;
+  width: 18rem;
+  height: 1.5rem;
+}
+
+.rightSideBarEle {
+  display: flex;
+  margin: 5px auto;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+} 
+
+.detailsWrapper {
+  background-image: url(https://www.cipherschools.com/static/media/ProfileCover.e525f2d51356332792cb.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0.5rem;
+  height: 20%;
+  width: 100%;
+  display: flex;
+}
+
+.userDetailsWrapper {
+  width: 100%;
+  padding: 2rem;
+  border-right: 1px solid #d1d1d1;
+  border-left: 1px solid #d1d1d1;
+  max-height: 35rem;
+}
+
+.userDetailsHeading {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btnClass {
+  align-items: center;
+  border: none;
+  background-color: #f3912e;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 13px;
+  height: 28px;
+  justify-content: center;
+  line-height: 1;
+  outline: none;
+  transition: 0.15s ease;
+  width: 80px;
+}
+
+.aboutInputBox {
+  background: white;
+  border-radius: 8px;
+  box-sizing: initial;
+  display: flex;
+  height: 100px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0.75rem;
+  margin-top: 1rem;
+}
+
+.aboutTextBox {
+  background: transparent;
+  border: none;
+  color: var(--paragraph);
+  display: flex;
+  font-size: 14px;
+  font-weight: 550;
+  line-height: 1.5;
+  overflow: hidden auto;
+  resize: none;
+  width: 100%;
+}
+
+.pencilClass {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.underline {
+  background: rgba(10, 30, 50, 0.1);
+  border-radius: 0.5px;
+  height: 1px;
+  margin: 1.5rem 0 1rem;
+  width: 100%;
+}
+
+.socialWrapper {
+  /* display: flex; */
+  width: 100%;
+}
+
+.socialEle {
+  width: 49%;
+  margin: 0.5rem;
+}
+
+.socialRow {
+  display: flex;
+  width: 100%;
+}
+
+.socialText, .professionalText, .detailDialogtext {
+  font-size: 15px;
+  font-weight: 550;
+  line-height: 1.5;
+}
+
+.detailDialogtext {
+  margin-top: 1rem;
+}
+
+.socialInputBox, .professionalOptn {
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  margin-top: 4px;
+  padding: 0.5rem 1rem;
+}
+
+.socialImg {
+  padding-right: 5px;
+}
+
+.socialInput {
+  background: transparent;
+  border: none;
+  /* color: var(--paragraph); */
+  font-size: 14px;
+  font-weight: 550;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.professionalOptn {
+  width: 96%;
+}
+
+.professionalWrapper {
+  display: flex;
+  width: 100%;
+}
+
+.professionalEle {
+  width: 50%;
+  margin: 0.5rem;
+}
+
+.passowrdWrapper {
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.passwordInput {
+  background: transparent;
+  border: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 550;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.passwordHeadings {
+  font-size: 15px;
+  font-weight: 550;
+  line-height: 1.5;
+}
+
+.dialogBoxPassword {
+  align-items: center;
+  display: flex;
+  background-color: #f2f5fa;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  color: "rgba(8,15,15,.85)";
+  font-size: 13px;
+  height: 40px;
+  margin: 5px 0;
+  outline: none;
+  padding: 0 12px;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  width: 500px;
+  /* height: 300px; */
+  border-radius: 3rem !important;
+  padding: 2rem;
+  box-shadow: 0 0 12px rgba(10,30,50,.15);
+}
+
+.dialogPasswordInput {
+  border: none;
+  width: 100%;
+  background-color: transparent;
+}
+
+.eyeDialog {
+  cursor: pointer;
+  display: flex;
+  height: 30px;
+  margin-left: -35px;
+  width: 30px;
+}
+
+.dialogButton {
+  font-size: 14px;
+  gap: 20px;
+  padding-top: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.cancel-btn {
+  background-color: rgba(8,15,15,.85);
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: inherit;
+  font-weight: 400;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .15s ease;
+  width: 100px;
+}
+
+.save-btn {
+  align-items: center;
+  background-color: #f3912e;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: inherit;
+  font-weight: 550;
+  height: 30px;
+  justify-content: center;
+  transition: .15s ease;
+  width: 100px;
+}
+
+.dialogImage {
+  width: 12%;
+  background-color: #999999;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.dialogBoxDetail {
+  padding: 10px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f5fa;
+  color: rgba(8,15,15,.85);
+  margin-top: 3px;
+  outline: none;
+  width: 100%;
+  line-height: 1.5;
+  font-weight: 550;
+}
+/* .profileImage {
+  background-color: #999999;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  justify-content: center;
+  width: 4%;
+  cursor: pointer;
+} */
